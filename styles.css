@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    background-color: rgb(244, 183, 85);
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
