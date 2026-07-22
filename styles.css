@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    background-color: rgb(244, 183, 85);
+    background-color: rgb(220, 85, 244);
     padding: 20px;
     width: 400px;
     border-radius: 10px;
@@ -29,5 +29,31 @@ input {
 
 button {
     padding: 10px 15px;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(245, 191, 245);
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+span {
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
     cursor: pointer;
 }
